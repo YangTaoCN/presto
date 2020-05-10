@@ -11,7 +11,7 @@ import numpy
 define_macros = []
 undef_macros = []
 extra_compile_args = ["-DUSEFFTW"]
-include_dirs = []
+include_dirs = ["/opt/local/include"]
 
 # Note:  you might need to add "gfortran" to the following list if 
 # you see errors relating to missing "g" functions....
